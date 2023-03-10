@@ -55,3 +55,37 @@
 
 }
 
+.ex-6-img {
+    transition: 10ms;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: 60ms;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1)  saturate(2) ;
+}
+
+.ex-8-img {
+    transition: 60ms;
+}
+
+.ex-8-img:hover {
+    border-radius: 150px;
+    filter: brightness(1)  saturate(2) ;
+}
+
+.ex-9-img {
+    transition: 60ms;
+}
+
+.ex-9-img:hover {
+    border-radius: 150px;
+    filter: brightness(1)  saturate(2) ;
+    scale: 1.5;
+}
